@@ -3,14 +3,23 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin git@github.com:ayazbaloch/vue-router-4.git
+git remote add origin https://github.com/ayazbaloch/vue-router-4.git
 git push -u origin main
 
 
 …or push an existing repository from the command line
-git remote add origin git@github.com:ayazbaloch/vue-router-4.git
+git remote add origin https://github.com/ayazbaloch/vue-router-4.git
 git branch -M main
 git push -u origin main
 
 
 npm init @vitejs/app
+
+To obtain only the remote URL:
+
+git config --get remote.origin.url
+
+
+How do I change the URI (URL) for a remote Git repository?
+
+git remote set-url origin new.git.url/here
