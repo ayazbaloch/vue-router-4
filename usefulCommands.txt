@@ -23,3 +23,7 @@ git config --get remote.origin.url
 How do I change the URI (URL) for a remote Git repository?
 
 git remote set-url origin new.git.url/here
+
+
+install vue router the below command
+npm install vue-router@4 --save
