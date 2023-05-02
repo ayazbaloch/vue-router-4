@@ -27,3 +27,5 @@ git remote set-url origin new.git.url/here
 
 install vue router the below command
 npm install vue-router@4 --save
+
+git clone  https://github.com/ayazbaloch/vue-router-4.git
